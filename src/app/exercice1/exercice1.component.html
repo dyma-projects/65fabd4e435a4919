@@ -1,0 +1,10 @@
+<br />
+<div class="">
+  <input
+    type="text"
+    [placeholder]="defaultValue"
+    (input)="myProfession = $any($event.target).value"
+  />
+  <br />
+  je suis un {{ myProfession }}
+</div>
